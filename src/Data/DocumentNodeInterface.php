@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\Document\Api\Data;
+namespace MateuszMesek\DocumentDataApi\Data;
 
 interface DocumentNodeInterface
 {
@@ -17,5 +17,5 @@ interface DocumentNodeInterface
     /**
      * @return mixed
      */
-    public function getResolver();
+    public function getValueResolver();
 }

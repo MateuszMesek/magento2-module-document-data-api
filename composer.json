@@ -1,12 +1,12 @@
 {
-  "name": "mateuszmesek-magento2/module-document-api",
+  "name": "mateuszmesek-magento2/module-document-data-api",
   "description": "N/A",
   "type": "magento2-module",
   "require": {
     "magento/framework": "*"
   },
     "replace": {
-        "mateuszmesek-magento2/module-document-api": "*"
+        "mateuszmesek-magento2/module-document-data-api": "*"
     },
   "license": [
     "MIT"
@@ -16,7 +16,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "MateuszMesek\\Document\\": "src"
+      "MateuszMesek\\DocumentDataApi\\": "src"
     }
   }
 }

@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\Document\Api\Command;
+namespace MateuszMesek\DocumentDataApi\Command;
 
-use MateuszMesek\Document\Api\Data\DocumentNodeInterface;
-use MateuszMesek\Document\Api\InputInterface;
+use MateuszMesek\DocumentDataApi\Data\DocumentNodeInterface;
+use MateuszMesek\DocumentDataApi\InputInterface;
 
 interface GetDocumentNodeValueInterface
 {
