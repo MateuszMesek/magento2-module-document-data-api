@@ -2,9 +2,10 @@
 
 namespace MateuszMesek\DocumentDataApi\Command;
 
+use MateuszMesek\DocumentDataApi\Data\DocumentDataInterface;
 use MateuszMesek\DocumentDataApi\InputInterface;
 
 interface GetDocumentDataInterface
 {
-    public function execute(string $documentName, InputInterface $input): array;
+    public function execute(string $documentName, InputInterface $input): ?DocumentDataInterface;
 }
