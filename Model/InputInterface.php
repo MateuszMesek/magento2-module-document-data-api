@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataApi;
+namespace MateuszMesek\DocumentDataApi\Model;
 
 interface InputInterface
 {

@@ -1,19 +1,20 @@
 {
-  "name": "mateuszmesek-magento2/module-document-data-api",
-  "description": "N/A",
-  "type": "magento2-module",
-  "require": {
-    "magento/framework": "*"
-  },
-  "license": [
-    "MIT"
-  ],
-  "autoload": {
-    "files": [
-      "registration.php"
+    "name": "mateuszmesek-magento2/module-document-data-api",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "php": ">=8.1",
+        "magento/framework": "*"
+    },
+    "license": [
+        "MIT"
     ],
-    "psr-4": {
-      "MateuszMesek\\DocumentDataApi\\": "src"
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MateuszMesek\\DocumentDataApi\\": ""
+        }
     }
-  }
 }

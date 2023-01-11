@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataApi\Data;
+namespace MateuszMesek\DocumentDataApi\Model\Data;
 
 interface DocumentDataInterface
 {
@@ -9,13 +9,13 @@ interface DocumentDataInterface
      * @param mixed $value
      * @return void
      */
-    public function set(string $path, $value): void;
+    public function set(string $path, mixed $value): void;
 
     /**
      * @param string $path
      * @return mixed
      */
-    public function get(string $path);
+    public function get(string $path): mixed;
 
     /**
      * @return array

@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataApi\Data;
+namespace MateuszMesek\DocumentDataApi\Model\Data;
 
 interface DocumentNodeInterface
 {
     /**
      * @return string
      */
-    public function getDocument(): string;
+    public function getDocumentName(): string;
 
     /**
      * @return string
@@ -17,5 +17,5 @@ interface DocumentNodeInterface
     /**
      * @return mixed
      */
-    public function getValueResolver();
+    public function getValueResolver(): mixed;
 }

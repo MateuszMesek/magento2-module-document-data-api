@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace MateuszMesek\DocumentDataApi;
+namespace MateuszMesek\DocumentDataApi\Model;
 
 use Traversable;
 
 interface DocumentNodesResolverInterface
 {
     /**
-     * @return Traversable|array
+     * @return \Traversable
      */
     public function resolve(): Traversable;
 }
